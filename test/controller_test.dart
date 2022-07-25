@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
-import 'package:simple_map/simple_map.dart';
+import 'package:world_map/world_map.dart';
 
 class MockCanvas extends Mock implements Canvas {}
 

@@ -1,17 +1,17 @@
 # Flutter Simple Map
 
-Flutter plugin to display a world map with animated points in real time.
-Can be used as a presentation of online users, devices, etc.
+Flutter plugin to display animated points on world map in real time mode.
+It could be also helpful as a presentation of some online users, devices, etc.
 
 ![1.gif](screens/1.gif)
 ![2.gif](screens/2.gif)
 
 ## Getting Started
 
-* Add this to your pubspec.yaml
+* Add this to pubspec.yaml file
   ```
   dependencies:
-  simple_map: ^0.1.0
+  world_map: ^1.0.0
   ```
 * Get the package from Pub:
   ```
@@ -19,7 +19,7 @@ Can be used as a presentation of online users, devices, etc.
   ```
 * Import it in your file
   ```
-  import 'package:simple_map/simple_map.dart';
+  import 'package:world_map/world_map.dart';
   ```
 
 ## Features
@@ -32,10 +32,9 @@ Can be used as a presentation of online users, devices, etc.
 
 ## Usage
 
-* Using SimpleMapOptions
+* Change Map Options - map, map color, points color
 ```dart
 final mapOptions = SimpleMapOptions(
-    // You can use your own map image
     mapAsset: 'assets/map.png',
     mapColor: Colors.grey,
     bgColor: Colors.black,
@@ -46,13 +45,8 @@ final mapOptions = SimpleMapOptions(
 ```dart
 final SimpleMapController mapController = SimpleMapController();
 
-// Add single point.
 mapController.addPoint(SimpleMapPoint());
-
-// Add list of points
 mapController.points = [SimpleMapPoint()];
-
-// Clear the map.
 mapController.clear();
 
 SimpleMap(
@@ -61,20 +55,9 @@ SimpleMap(
 ),
 ```
 
-* Simple map with one center point with duration of 100 seconds
-```dart
-SimpleMap(
-  controller: SimpleMapController(points: [
-    SimpleMapPoint(
-      lat: 0.0,
-      lng: 0.0,
-      color: Colors.blue,
-      ttl: Duration(seconds: 100),
-    )
-  ]),
-  options: mapOptions,
-),
-```
-
 * Check out the complete example in github
 
+
+## License
+
+* MIT License Daniil Shilintsev

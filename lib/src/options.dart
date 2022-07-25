@@ -11,7 +11,7 @@ class SimpleMapOptions {
 
   SimpleMapOptions({
     this.projection = const MercatorProjection(),
-    this.mapAsset = 'packages/simple_map/assets/mercator.png',
+    this.mapAsset = 'packages/simple_map/assets/map.png',
     this.mapColor = const Color(0xFFCDD0D7),
     this.bgColor = Colors.transparent,
   });

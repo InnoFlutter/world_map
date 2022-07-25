@@ -4,7 +4,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:flutter/services.dart';
-import 'package:simple_map/simple_map.dart';
+import 'package:simple_map/world_map.dart';
 import 'package:wakelock/wakelock.dart';
 
 void main() {

@@ -1,7 +1,7 @@
-library simple_map;
+library world_map;
 
 import 'dart:ui';
-
+// import 'package:world_map/world_map.dart';
 import 'package:flutter/material.dart';
 
 import 'src/controller.dart';

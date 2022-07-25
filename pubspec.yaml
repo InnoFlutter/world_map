@@ -1,6 +1,6 @@
 name: world_map
-description: A Flutter plugin for displaying a simple flat world map with animated points.
-version: 0.1.0
+description: Flutter plugin for animated map. Created for Innopolis University Flutter course.
+version: 1.0.0
 homepage: 'https://github.com/Danilum/FlutterProject'
 
 environment:

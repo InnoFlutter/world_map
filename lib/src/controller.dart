@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:simple_map/simple_map.dart';
+import 'package:world_map/world_map.dart';
 
 import 'point.dart';
 import 'projections/projection.dart';
